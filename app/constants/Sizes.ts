@@ -1,0 +1,20 @@
+export const sizes = {
+    extra_extra_small: 3,
+    extra_small: 5,
+    small: 10,
+    medium: 15,
+    large: 20,
+    extra_large: 25,
+    extra_extra_large: 30,
+    border_radius: 10,
+    button_width: 200,
+    input_width: 200,
+    text: {
+      h1: 24,
+      h2: 18,
+      p1: 17,
+      p2: 13,
+      p3: 11,
+      p4: 10,
+    },
+  };

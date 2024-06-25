@@ -1,50 +1,117 @@
-# Welcome to your Expo app 👋
+<!-- Table of Contents -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#built-with">Built With</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#install-dependencies">Install Dependencies</a></li>
+        <li><a href="#start-metro">Start Metro</a></li>
+      </ul>
+    </li>
+    <li><a href="#demo">Demo</a></li>
+  </ol>
+</details>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Built With
+ 
+This project is built with React Native and React Native web.
 
-## Get started
+[![Expo][Expo]][Expo - url]
+[![React Native][React Native]][React Native-url]
 
-1. Install dependencies
+# Getting Started
 
-   ```bash
-   npm install
-   ```
+>**Note**: Make sure you have completed the [Expo - Environment Setup]
+<p><a href="https://docs.expo.dev/get-started/set-up-your-environment">Expo Environment setup</a></p>
 
-2. Start the app
+# Running Project
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Navigate to Project
 
 ```bash
-npm run reset-project
+cd /path/to/project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Open IDE
+This command will open vs code.
+```bash
+code .
+```
 
-## Learn more
+## Install Dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+# using npm
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+# OR using Yarn
+yarn install
+```
 
-## Join the community
+```bash
+# OR using Expo
+npx expo install
+```
 
-Join our community of developers creating universal apps.
+## Start Packager
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+# using npm
+npm start
+```
+
+```bash
+# OR using Yarn
+yarn start
+```
+
+## Run on device
+Iphone
+```bash
+# Press i
+i
+```
+Android
+```bash
+# Press a
+a
+```
+Web
+```bash
+# Press w
+w
+```
+This wil install Expo go in native device and app will run.
+
+# Demo
+## Adding Task
+1. Click on Plus Button
+2. Add Title and Description
+3. Click on Save Button
+
+<img src="Demo/Addition1.gif" width="200" height="400" alt="Deleting Task GIF">
+
+## Completing Task
+1. Click on task
+2. Click on Complete task 
+Complete task button will be visible
+
+<img src="Demo/Completion.gif" width="200" height="400" alt="Deleting Task GIF">
+
+## Deleting Task
+1. Click on task
+2. Click on Trash button
+3. Confirm deletion
+
+<img src="Demo/Deletion.gif" width="200" height="400" alt="Deleting Task GIF">
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Expo]: https://img.shields.io/badge/Expo-20232A?style=for-the-badge&logo=expo&logoColor=61DAFBß
+[Expo - url]: https://expo.dev/
+[React Native]: https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFBß
+[React Native-url]: https://reactnative.dev/

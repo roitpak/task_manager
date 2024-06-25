@@ -1,0 +1,2 @@
+export const TASKS_SCREEN = 'TASKS_SCREEN';
+export const CREATE_TASKS_SCREEN = 'CREATE_TASKS_SCREEN';
